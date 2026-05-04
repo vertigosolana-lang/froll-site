@@ -527,7 +527,7 @@ button {
 .section-bg {
   position: fixed;
   inset: 0;
-  background-image: url("assets/pond.png");
+  background-image: url("assets/pond.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
