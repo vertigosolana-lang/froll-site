@@ -7,7 +7,7 @@
   With your real CA, for example:
   ANJkHqCbkkxJGZvAYD16Pg8zAa5hiGoJFQxDBXKMpump
 */
-const CONTRACT_ADDRESS = "Paste official contract address here";
+const CONTRACT_ADDRESS = "2JSG1AQsS4kfev5xAfV9Re33rF8xvuzhnSUR7iGYpump";
 
 const pageContent = {
   swamp: {
