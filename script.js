@@ -15,12 +15,12 @@ let busy = false;
 
   With your final Jupiter swap link.
 */
-const JUPITER_LINK = "https://jup.ag/";
+const JUPITER_LINK = "https://jup.ag/?sell=So11111111111111111111111111111111111111112&buy=2JSG1AQsS4kfev5xAfV9Re33rF8xvuzhnSUR7iGYpump";
 
 /*
   Official $FROLL Twitter/X account.
 */
-const TWITTER_LINK = "https://x.com/FrollSolana";
+const TWITTER_LINK = "https://x.com/SolanaFroll";
 
 const sectionLinks = {
   twitter: TWITTER_LINK,
