@@ -4,6 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>$FROLL Section</title>
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+  <link rel="preload" as="image" href="assets/pond.webp">
+  <link rel="preload" as="image" href="assets/grass-left.webp">
+  <link rel="preload" as="image" href="assets/grass-right.webp">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="section-document">
@@ -31,17 +38,16 @@
 
     <div class="grass-overlay section-grass-overlay" id="grassOverlay">
       <div class="grass grass-left">
-        <img src="assets/grass-left.png" alt="Left grass">
+        <img src="assets/grass-left.webp" alt="Left grass">
       </div>
 
       <div class="grass grass-right">
-        <img src="assets/grass-right.png" alt="Right grass">
+        <img src="assets/grass-right.webp" alt="Right grass">
       </div>
     </div>
 
   </main>
 
-  <script src="grass-cleaner.js"></script>
   <script src="page.js"></script>
 </body>
 </html>
