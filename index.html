@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>$FROLL</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <main class="site">
+
+    <section class="pond-scene" id="pondScene">
+
+      <div class="pond-bg"></div>
+
+      <div class="hero-text" id="heroText">
+        <h1>$FROLL</h1>
+        <p>Half frog. Half troll. Full send.</p>
+      </div>
+
+      <div class="pads-area">
+
+        <div class="lilypad center-pad" id="centerPad">
+          <img src="assets/lilypad.png" alt="Center lily pad">
+        </div>
+
+        <button class="lilypad nav-pad" data-section="twitter" style="--x: 27%; --y: 48%; --s: .72;">
+          <span>Twitter</span>
+          <i></i>
+          <img src="assets/lilypad.png" alt="Twitter">
+        </button>
+
+        <button class="lilypad nav-pad" data-section="what" style="--x: 73%; --y: 48%; --s: .72;">
+          <span>What is FROLL</span>
+          <i></i>
+          <img src="assets/lilypad.png" alt="What is FROLL">
+        </button>
+
+        <button class="lilypad nav-pad" data-section="tokenomics" style="--x: 27%; --y: 78%; --s: .72;">
+          <span>Tokenomics</span>
+          <i></i>
+          <img src="assets/lilypad.png" alt="Tokenomics">
+        </button>
+
+        <button class="lilypad nav-pad" data-section="buy" style="--x: 73%; --y: 78%; --s: .72;">
+          <span>Buy Now</span>
+          <i></i>
+          <img src="assets/lilypad.png" alt="Buy Now">
+        </button>
+
+        <div class="mascot" id="mascot">
+          <img src="assets/mascot.png" alt="$FROLL mascot">
+        </div>
+
+      </div>
+
+      <div class="grass-overlay closed" id="grassOverlay">
+        <div class="rustle-text" id="rustleText">Rustle the grass</div>
+
+        <div class="grass grass-left">
+          <img src="assets/grass-left.png" alt="Left grass">
+        </div>
+
+        <div class="grass grass-right">
+          <img src="assets/grass-right.png" alt="Right grass">
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="grass-cleaner.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
